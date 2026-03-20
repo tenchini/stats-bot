@@ -1,0 +1,9 @@
+services:
+  stats-bot:
+    build: .
+    image: statsbot:v1
+    container_name: stats-bot-container
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - STEAM_API_KEY=${STEAM_API_KEY}
+    restart: unless-stopped
