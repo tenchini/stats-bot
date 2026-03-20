@@ -1,4 +1,4 @@
-package com.cs2bot.stats_bot;
+package com.cs2bot.statsbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
